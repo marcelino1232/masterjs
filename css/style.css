@@ -1,0 +1,90 @@
+body{
+  background: url("../img/hojas.jpg");
+  background-attachment: fixed;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#global{
+  background:white;
+  margin: 0px auto;
+  width: 65%;
+  margin-top: 30px;
+  padding: 20px;
+  border: 2px gray;
+}
+
+#log {
+  background: green;
+  color : white;
+  padding: 20px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  width: 250px;
+  height: 25px;
+  line-height: 25px;
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+nav {
+  margin-top: 15px;
+}
+
+nav .menu{
+ text-transform: uppercase;
+ list-style: none;
+ line-height: 40px;
+ width: 100%;
+ background:gray;
+ margin-bottom: 15px;
+ 
+}
+
+nav ul li{
+ height: 40px;
+ display: inline-block;
+ text-align:center;
+ transition: all 300ms;
+}
+
+nav ul li :hover
+{
+  background:green;
+}
+nav ul li a{
+  display: block;
+  text-decoration: none;
+  color:white;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 20px;
+  padding-right: 30px;
+}
+
+#post{
+  padding: 5px;
+}
+
+.post{
+  width: 60%;
+}
+
+.post h2{
+  font-size: 25px;
+  margin-bottom: 2px;
+}
+.post label{
+  display: block;
+  color:gray;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.post p
+{
+ line-height: 20px;
+ text-align: justify;
+}
