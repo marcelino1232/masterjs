@@ -7,6 +7,10 @@ body{
     margin: 0;
     padding: 0;
 }
+.clearflex{
+ float: none;
+ clear: both;
+}
 
 #global{
   background:white;
@@ -71,6 +75,7 @@ nav ul li a{
 
 .post{
   width: 60%;
+  float: left;
 }
 
 .post h2{
@@ -87,4 +92,54 @@ nav ul li a{
 {
  line-height: 20px;
  text-align: justify;
+ margin-bottom: 10px;
+}
+
+.post .btn-leer
+{
+  display: block;
+  background:green;
+  color:white;
+  border:0px;
+  font-size: 12px;
+  height: 40px;
+  width: 80px;
+  cursor: pointer;
+}
+article{
+  margin-top: 20px;
+}
+
+aside{
+  display: block;
+  width: 31%;
+  float: right;
+}
+.sider{
+  margin-bottom: 20px;
+}
+.sider h3{
+  text-align: center;
+  margin-bottom: 5px;
+}
+.sider img{
+  width: 100%;
+  margin-top: 3px;
+}
+
+.sider p
+{
+  text-align: justify;
+  line-height: 20px;
+}
+
+footer{
+  width: 68%;
+  margin: 20px auto;
+  text-align: center;
+  background:green;
+  color:white;
+  height: 45px;
+  line-height: 45px;
+  
 }
