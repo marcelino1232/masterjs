@@ -1,0 +1,21 @@
+body{
+    background: url("../img/hojas.jpg");
+    background-attachment: fixed;
+  }
+
+  #log {
+    background: green;
+  }
+  nav ul li :hover {
+   background:green;
+  }
+
+ .post .btn-leer
+{
+  background:green;
+}
+footer{
+    background:green;
+  }
+  
+  

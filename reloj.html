@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proyecto-js</title>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link id="tema" rel="stylesheet" type="text/css" href="css/green.css" />
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment-with-locales.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+
+
+    <script  src="js/main.js"></script>
+    <script type="text/javascript">
+     setInterval(function()
+     {
+        var reloj = moment().format('h:mm:ss a');
+        $("#reloj").html(reloj);
+        
+     },1000);
+    </script>
+</head>
+<body>
+    <div class="boton-tema">
+        <div class="to-verde"></div>
+        <div class="to-rojo"></div>
+        <div class="to-azul"></div>
+    </div>
+    <section id="global">
+
+        <!-- Cabecera -->
+
+        <header>
+          <div id="log">
+            <h1>Proyecto js</h1>
+          </div>
+          <nav>
+              <ul class="menu">
+                <li>
+                    <a href="Index.html">Inicio</a>
+                </li>
+                <li>
+                    <a href="reloj.html">Reloj</a>
+                </li>
+                <li>
+                    <a href="about.html">Sobre mi</a>
+                </li>
+                <li>
+                    <a href="contacto.html">Contacto</a>
+                </li>
+              </ul>
+          </nav>
+        </header>
+
+       <!-- Contenido -->
+
+       <section id="post">
+
+          <div class="box">
+           <div id="reloj"></div>
+          </div>
+
+          <aside>
+              <div class="sider">
+                  <h3>Que soy</h3>
+                  <img src="img/caracol.jpg">
+                  <p>Los registros históricos ofrecen una ventana inusual al pasado de su familia</p>
+              </div>
+              <div class="sider">
+                <h3>Login</h3>
+                <form action="">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" placeholder="Nombre..."> 
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Email..."> 
+                <label for="password">Pasword</label>
+                <input type="password" name="password" placeholder="Password..."> 
+                <input type="submit" name="name" value="Enviar"> 
+                </form>
+            </div>
+          </aside>
+          <div class="clearflex">
+
+          </div>
+       </section>
+    </section>
+    <footer>
+        <i>Marcelino Heredia Fernandez</i>  Todo los derecho Reservado &copy;
+        <a href="#" class="Subir">Ir Arriba</a>
+    </footer>
+</body>
+</html>

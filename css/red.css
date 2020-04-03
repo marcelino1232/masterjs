@@ -1,0 +1,20 @@
+body{
+    background: url("../img/rojo.jpg");
+    background-attachment: fixed;
+  }
+
+  #log {
+    background: red;
+  }
+  nav ul li :hover {
+   background:red;
+  }
+
+ .post .btn-leer
+{
+  background:red;
+}
+
+footer{
+    background:red;
+  }

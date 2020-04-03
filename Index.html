@@ -5,8 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto-js</title>
     <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link id="tema" rel="stylesheet" type="text/css" href="css/green.css" />
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script  src="js/main.js"></script>
 </head>
 <body>
+    <div class="boton-tema">
+        <div class="to-verde"></div>
+        <div class="to-rojo"></div>
+        <div class="to-azul"></div>
+    </div>
     <section id="global">
 
         <!-- Cabecera -->
@@ -18,21 +31,32 @@
           <nav>
               <ul class="menu">
                 <li>
-                    <a href="#">Inicio</a>
+                    <a href="Index.html">Inicio</a>
                 </li>
                 <li>
-                    <a href="#">Reloj</a>
+                    <a href="reloj.html">Reloj</a>
                 </li>
                 <li>
-                    <a href="#">Sobre mi</a>
+                    <a href="about.html">Sobre mi</a>
                 </li>
                 <li>
-                    <a href="#">Contacto</a>
+                    <a href="contacto.html">Contacto</a>
                 </li>
               </ul>
           </nav>
         </header>
 
+      <div class="bxslider">
+      <div>
+            <img src="img/rojo.jpg" title="Funky roots">
+        </div>
+        <div>
+            <img src="img/hojas.jpg" title="The long and winding road">
+        </div>
+         <div>
+             <img src="img/cielo.jpg" title="Happy trees">
+        </div>
+      </div>
        <!-- Contenido -->
 
        <section id="post">
@@ -77,6 +101,32 @@
                 </p>
                 <button class="btn-leer">Leer mas</button>
             </article>
+            <article>
+                <h2>Prueva Titulo 4</h2>
+                <label>Fecha de Publicacion</label>
+                <p>
+                   Los registros históricos ofrecen una ventana inusual al pasado de su familia.
+                   Aprenda más sobre la familia Inpum, dónde vivieron y qué hicieron para ganarse la vida.
+                   Busque registros de nacimiento, certificados de defunción y datos de inmigración,
+                   entre otra información en colecciones históricas. Encuentre los nombres y fechas de nacimiento 
+                   de los miembros de la familia Inpum, las diferentes direcciones de residencia, las ocupaciones de 
+                   los miembros de la familia, así como la información de muerte y entierro.
+                </p>
+                <button class="btn-leer">Leer mas</button>
+            </article>
+            <article>
+                <h2>Prueva Titulo 5</h2>
+                <label>Fecha de Publicacion</label>
+                <p>
+                   Los registros históricos ofrecen una ventana inusual al pasado de su familia.
+                   Aprenda más sobre la familia Inpum, dónde vivieron y qué hicieron para ganarse la vida.
+                   Busque registros de nacimiento, certificados de defunción y datos de inmigración,
+                   entre otra información en colecciones históricas. Encuentre los nombres y fechas de nacimiento 
+                   de los miembros de la familia Inpum, las diferentes direcciones de residencia, las ocupaciones de 
+                   los miembros de la familia, así como la información de muerte y entierro.
+                </p>
+                <button class="btn-leer">Leer mas</button>
+            </article>
           </div>
 
           <aside>
@@ -86,9 +136,16 @@
                   <p>Los registros históricos ofrecen una ventana inusual al pasado de su familia</p>
               </div>
               <div class="sider">
-                <h3>Que soy</h3>
-                <img src="img/caracol.jpg">
-                <p>Los registros históricos ofrecen una ventana inusual al pasado de su familia</p>
+                <h3>Login</h3>
+                <form action="">
+                <label for="name">Nombre</label>
+                <input type="text" name="name" placeholder="Nombre..."> 
+                <label for="email">Email</label>
+                <input type="email" name="email" placeholder="Email..."> 
+                <label for="password">Pasword</label>
+                <input type="password" name="password" placeholder="Password..."> 
+                <input type="submit" name="name" value="Enviar"> 
+                </form>
             </div>
           </aside>
           <div class="clearflex">
@@ -98,6 +155,7 @@
     </section>
     <footer>
         <i>Marcelino Heredia Fernandez</i>  Todo los derecho Reservado &copy;
+        <a href="#" class="Subir">Ir Arriba</a>
     </footer>
 </body>
 </html>
